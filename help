@@ -1,0 +1,1 @@
+planck -m cpv1.core "5 * X^0 - 3 * X^2"

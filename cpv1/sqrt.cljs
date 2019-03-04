@@ -3,8 +3,8 @@
 (defn- abs[x]
   (max x (- x)))
 
-(defn- average [a b]
-  (/ (+ a b) 2))
+(defn- average [x y]
+  (/ (+ x y) 2))
 
 (defn- good-guess? [x guess]
   (< (abs (- x (* guess guess))) 0.00000001))

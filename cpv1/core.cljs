@@ -43,7 +43,8 @@
                      (println "Not possible")))))
 
 (defn print-usage []
-  (println "usage: lumo -m src -c cpv1.core <polynomial expression, for example \"5 * X^0 - 3 * X^2\">"))
+  (println "usage: planck -m cpv1.core <polynomial expression, for example \"5 * X^0 - 3 * X^2\">" ))
+  ;; (println "usage: lumo -m src -c cpv1.core <polynomial expression, for example \"5 * X^0 - 3 * X^2\">"))
 
 (defn -main
   [& args]
